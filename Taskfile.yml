@@ -6,3 +6,9 @@ tasks:
 
   serve:
     - pnpm exec vite
+
+  build:
+    - pnpm exec vite build
+
+  preview:
+    - pnpm exec vite preview
