@@ -1,0 +1,8 @@
+version: '3'
+
+tasks:
+  typecheck:
+    - pnpm exec tsc
+
+  serve:
+    - pnpm exec vite
